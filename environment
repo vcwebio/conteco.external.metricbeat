@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+export CONTECO_LABEL="External ElasticSearch Metricbeat image"
+export CONTECO_DESCRIPTION="Import of external ElasticSearch Metricbeat image into the ContEco ecosystem."
+
+export CONTECO_TYPE="external"
+export CONTECO_NAME="metricbeat"
+export CONTECO_TAG="6.6.2"
+
+export CONTECO_BASE="docker.elastic.co/beats/metricbeat:6.6.2"
+export CONTECO_BUILD="external-mapped"
