@@ -4,7 +4,7 @@ Import of external official ElasticSearch Metricbeat image into the ContEco ecos
 
 ## Current Import Version
 
-Current import is based on metricbeat:6.6.2
+Current import is based on metricbeat:6.8.1
 
 ## Import Modifications
 
@@ -17,4 +17,5 @@ The import build installs the following packages:
 
 ## Tags
 
-* 6.6.2 (latest)  
+* 6.8.1 (latest)  
+* 6.6.2

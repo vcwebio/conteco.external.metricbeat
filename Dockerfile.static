@@ -1,5 +1,5 @@
 ##### BEGIN external-mapped/Dockerfile/iamge-header #####
-FROM docker.elastic.co/beats/metricbeat:6.6.2
+FROM docker.elastic.co/beats/metricbeat:6.8.1
 ##### END external-mapped/Dockerfile/image-header #####
 
 ##### BEGIN image/Dockerfile/build-instructions #####
@@ -18,8 +18,8 @@ LABEL io.vcweb.schema-version="1.0" \
       io.vcweb.ecosystem="conteco" \
       io.vcweb.type="external" \
       io.vcweb.name="metricbeat" \
-      io.vcweb.tag="6.6.2" \
-      io.vcweb.base="docker.elastic.co/beats/metricbeat:6.6.2" \
+      io.vcweb.tag="6.8.1" \
+      io.vcweb.base="docker.elastic.co/beats/metricbeat:6.8.1" \
       io.vcweb.build="external-mapped" \
       io.vcweb.label="External ElasticSearch Metricbeat image" \
       io.vcweb.description="Import of external ElasticSearch Metricbeat image into the ContEco ecosystem." \

@@ -5,7 +5,7 @@ export CONTECO_DESCRIPTION="Import of external ElasticSearch Metricbeat image in
 
 export CONTECO_TYPE="external"
 export CONTECO_NAME="metricbeat"
-export CONTECO_TAG="6.6.2"
+export CONTECO_TAG="6.8.1"
 
-export CONTECO_BASE="docker.elastic.co/beats/metricbeat:6.6.2"
+export CONTECO_BASE="docker.elastic.co/beats/metricbeat:6.8.1"
 export CONTECO_BUILD="external-mapped"
