@@ -4,12 +4,12 @@ FROM $CONTECO_BASE
 
 ##### BEGIN image/Dockerfile/build-instructions #####
 USER root
-RUN yum update -y && yum install -y gettext && yum install -y epel-release && yum install -y jq && rm -rf /var/cache/yum/*
+RUN yum install -y gettext && yum install -y epel-release && yum install -y jq && rm -rf /var/cache/yum/*
 #USER filebeat
 ##### END image/Dockerfile/build-instructions #####
 
 ##### BEGIN external/Dockerfile/conteco #####
-COPY ./ /conteco/git-repository/
+COPY ./ /conteco/repo/
 ##### END external/Dockerfile/conteco #####
 
 ##### BEGIN external-mapped/Dockerfile/labels-footer #####
@@ -23,5 +23,5 @@ LABEL $CONTECO_LABELSPACE.schema-version="1.0" \
       $CONTECO_LABELSPACE.build="$CONTECO_BUILD" \
       $CONTECO_LABELSPACE.label="$CONTECO_LABEL" \
       $CONTECO_LABELSPACE.description="$CONTECO_DESCRIPTION" \
-      $CONTECO_LABELSPACE.repository="/conteco/git-repository" 
+      $CONTECO_LABELSPACE.repository="/conteco/repo" 
 ##### END external-mapped/Dockerfile/labels-footer #####
