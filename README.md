@@ -2,13 +2,12 @@
 
 Import of external official ElasticSearch Metricbeat image into the ContEco ecosystem.
 
-## Current Import Version
+## Import Version
 
-Current import is based on metricbeat:7.1.1
+Current import is based on docker.elastic.co/beats/metricbeat.
+Image tag reflect the version.
 
 ## Import Modifications
-
-### Current Modifications
 
 The import build installs the following packages:
 
