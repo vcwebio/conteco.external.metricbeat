@@ -1,22 +1,13 @@
-# conteco.external.metricbeat
+# `external.metricbeat` - ContEco
 
-Import of external official ElasticSearch Metricbeat image into the ContEco ecosystem.
+ElasticSearch Metricbeat image with ContEco external prerequisites installed.
 
-## Import Version
+## Installed External Prerequisites
 
-Current import is based on docker.elastic.co/beats/metricbeat.
-Image tag reflect the version.
-
-## Import Modifications
-
-The import build installs the following packages:
-
+* epel-release
 * gettext - for availability of envsubst
 * jq - JSON processor
 
 ## Tags
 
-* 7.1.1 (latest)  
-* 6.8.1    
-* 6.6.2
-
+* 7.1.1 (current)  
