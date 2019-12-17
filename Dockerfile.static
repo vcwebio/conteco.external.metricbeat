@@ -21,7 +21,7 @@ LABEL io.vcweb.schema-version="1.0" \
       io.vcweb.tag="7.1.1" \
       io.vcweb.base="docker.elastic.co/beats/metricbeat:7.1.1" \
       io.vcweb.build="external-mapped" \
-      io.vcweb.label="External ElasticSearch Metricbeat image" \
-      io.vcweb.description="Import of external ElasticSearch Metricbeat image into the ContEco ecosystem." \
+      io.vcweb.label="external.metricbeat - ContEco" \
+      io.vcweb.description="ElasticSearch Metricbeat image with ContEco external prerequisites installed." \
       io.vcweb.repository="/conteco/repo" 
 ##### END external-mapped/Dockerfile/labels-footer #####
