@@ -1,5 +1,5 @@
 ##### BEGIN external-mapped/Dockerfile/image-header #####
-FROM docker.elastic.co/beats/metricbeat:7.8.0
+FROM docker.elastic.co/beats/metricbeat:7.9.2
 ##### END external-mapped/Dockerfile/image-header #####
 
 ##### BEGIN image/Dockerfile/build-instructions #####
@@ -18,8 +18,8 @@ LABEL io.vcweb.schema-version="1.0" \
       io.vcweb.ecosystem="conteco" \
       io.vcweb.type="external" \
       io.vcweb.name="metricbeat" \
-      io.vcweb.tag="7.8.0" \
-      io.vcweb.base="docker.elastic.co/beats/metricbeat:7.8.0" \
+      io.vcweb.tag="7.9.2" \
+      io.vcweb.base="docker.elastic.co/beats/metricbeat:7.9.2" \
       io.vcweb.build="external-mapped" \
       io.vcweb.label="external.metricbeat - ContEco" \
       io.vcweb.description="ElasticSearch Metricbeat image with ContEco external prerequisites installed." \

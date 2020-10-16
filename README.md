@@ -11,5 +11,5 @@ See `conteco.docs.overview` for more information on the ContEco ecosystem.
 
 ## Tags
 
-* 7.8.0 (current)  
+* 7.9.2 (current)  
 * 7.1.1
